@@ -1,0 +1,93 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Proof of Concept Design}
+\author{Georgia Rutherford }
+\date{September 2019}
+
+\begin{document}
+
+\maketitle
+
+\section{User Stories}
+\begin{enumerate}
+\item As a student I want to be able to take notes on the web page itself so that I don't have to switch between notes and my page
+\item As a student I want multiple people to be able to make notes on the same document so that I can collaborate and discuss with others
+\item As a student I want to be able save my notes so that I have local backups of them if anything happens to Hypothes.is or the websites I am taking notes on
+\item As  student I want to be able to save multiple annotations that I make on the one web page so that I am able to keep all related notes together
+\item As student I want to rename my saved files so that I can easily know what each file contains
+\item As student I want to clean the annotation information that I save so that I can clearly understand it
+\item As student I want to be able to clean multiple annotations at once so that I don't have to waste time going through the process for each note I make on a document
+\item As a student I want to be able to keep copies of the original text file so that I can refer to it if the reformatting process ever has unexpected results
+\item As a student I want to be able to do some basic analysis of my notes so that I know what the content of my notes are at a glance
+\item As a as a student I want to be able to search my notes by their tags so that I can find notes on similar topics
+\end{enumerate}
+
+\section{Categorisation}
+\begin{itemize}
+\item User stories 1-2 are about the actual note taking process. These User stories must be fulfilled first so that I am able to start on the next steps.  
+\item User stories 3-5 are about the process of exporting and saving my notes from hypothes.is. A prerequisite of this step is that I am able to actually take the notes on hypothes.is. This step must be completed before I am able to move on to reformatting and analysis of my notes. 
+\item User stories 6-8 are about reformatting the annotations. A prerequiste of this step is that I have notes saved in their original form which can be reformatted. I must perform this reformatting before I am able to usefully analyse my notes. 
+\item User stories 9-10 are about the analysis of the notes. These are the user stories that I will focus on last once I am able to save my notes into a readable format. While the analysis of my notes would make this tool more impressive, it is not core to it being successful. My focus will mainly be on saving my notes in a readable format. 
+\end{itemize}
+
+\section{Acceptance Criteria}
+\begin{enumerate}
+\item As a student I should be able to:
+\begin{itemize}
+\item Open a web page
+\item Turn on hypothes.is
+\item Make notes on the web page
+\item Highlight sections of interest
+\item Be able to see my notes as I scroll through the web page
+\end{itemize}
+\item As a student I should be able to:
+\begin{itemize}
+\item Open a web page
+\item Turn on hypothes.is
+\item See on the web page if any public notes have been made by other people on the web page
+\end{itemize}
+\item As a student I should be able to:
+\begin{itemize}
+\item Indicate a particular annotation
+\item Save the annotation as a local file
+\end{itemize}
+\item As a student I should be able to:
+\begin{itemize}
+\item Indicate a web page 
+\item Save all public annotations on that web page
+\end{itemize}
+\item As a student I should be able to:
+\begin{itemize}
+\item Indicate a file I wish to rename
+\item Indicate what I want the file to be renamed as
+\item Rename the file
+\end{itemize}
+\item As a student I should be able to:
+\begin{itemize}
+\item Get rid of text sections of the annotation information that are irrelevant 
+\item Keep section of the annotation information such as the URL, the note I took, and the text the note was about
+\item Separate out the information so that each section is on its own line
+\end{itemize}
+\item As a student I should be able to:
+\begin{itemize}
+\item Repeat the actions of step 6 for each separate note taken on a web page
+\end{itemize}
+\item As a student I should be able to:
+\begin{itemize}
+\item Save a separate copy of the original annotation information
+\item Name the file something different but similar to the end result
+\end{itemize}
+\item As a student I should be able to:
+\begin{itemize}
+\item Produce a list of most common words used in the annotations
+\item Save this list either in a new file or at the end of the cleaned annotation file 
+\end{itemize}
+\item As a student I should be able to:
+\begin{itemize}
+\item Search specifically by tags of notes
+\item List documents that use the tags searched for
+
+
+
+\end{document}
